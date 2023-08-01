@@ -24,3 +24,12 @@ class Test_002:
             assert True
         else:
             assert False
+    def test_div_0022(self):
+        a = 20
+        b = 5
+        div = a/b
+        print("This is sum of a&b: " + str(div))
+        if div == 4:
+            assert True
+        else:
+            assert False
