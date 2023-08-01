@@ -13,3 +13,12 @@ class Test_001:
             print("You are at wrong place")
             driver.close()
             assert False
+    def test_sum_002(self):
+        a = 2
+        b = 5
+        sum = a+b
+        print("This is sum of a&b: " + str(sum))
+        if sum == 7:
+            assert True
+        else:
+            assert False
