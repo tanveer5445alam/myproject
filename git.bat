@@ -1,0 +1,1 @@
+pytest --alluredir="D:\programming\pythonProject\Allurereports" -v --html=Reports/report.html
